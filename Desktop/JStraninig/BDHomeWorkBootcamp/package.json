@@ -1,0 +1,22 @@
+{
+  "name": "bdhomework",
+  "version": "1.0.0",
+  "description": "homeWork",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.6.0",
+    "morgan": "^1.10.0"
+  }
+}
